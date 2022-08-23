@@ -8,6 +8,11 @@
     display: flex;
     padding-left: 60px;
 }
+.ham{
+    font-size: 30px;
+    color: #26bcef;
+    display: none;
+}
 .right{
     left: 360px;
 }
@@ -156,4 +161,35 @@ secure{
     display: flex;
     left: 270px;
     top: -870px;
+}
+
+@media screen and (max-width:720px)
+{
+    .Main{
+        display: block;
+        left: 500px;
+    }
+    .best1,.best2{
+        font-size: 40px;
+    }
+    .para1,.text{
+        display: none;
+    }
+    .item{
+        display: none;
+    }
+    .ham{
+        display: block;
+        left: -300px;
+        cursor: pointer;
+    }
+    .free_trail{
+        left: 600px;
+    }
+    .I1{
+        left:300px;
+    }
+    .Navbar{
+        width: 500px;
+    }
 }
